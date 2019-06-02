@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import WiseSquare from './WiseSquare';
 import AnnoyingForm from './AnnoyingForm';
+import CopyDemo from './CopyDemo';
 import './App.css';
 
 
@@ -12,6 +13,7 @@ class App extends Component {
         <h1>React Events</h1>
         <WiseSquare />
         <AnnoyingForm />
+        <CopyDemo />
       </div>
     );
   }
