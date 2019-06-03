@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 // import WiseSquare from './WiseSquare';
 // import AnnoyingForm from './AnnoyingForm';
 // import CopyDemo from './CopyDemo';
-import ButtonList from './ButtonList';
+// import ButtonList from './ButtonList';
+import NumberList from './NumberList';
 import './App.css';
 
 
@@ -15,7 +16,8 @@ class App extends Component {
         {/* <WiseSquare />
         <AnnoyingForm />
         <CopyDemo /> */}
-        <ButtonList />
+        {/* <ButtonList /> */}
+        <NumberList />
       </div>
     );
   }
