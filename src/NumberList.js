@@ -14,7 +14,8 @@ class NumberList extends Component {
   }
 
   render(){
-    let nums = this.state.nums.map(n => <NumberItem value={n} />);
+    let nums = this.state.nums.map(n => <NumberItem value={n} remove={() => 
+    this.remove(n)} />); /* n is the actual value to remove */
     return(
       <div>
         <h1>First Number List</h1>

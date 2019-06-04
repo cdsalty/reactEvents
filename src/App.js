@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 // import CopyDemo from './CopyDemo';
 // import ButtonList from './ButtonList';
 import NumberList from './NumberList';
-import './App.css';
+// import './App.css';
 
 
 class App extends Component {
