@@ -4,6 +4,7 @@ import React, { Component } from 'react';
 // import CopyDemo from './CopyDemo';
 // import ButtonList from './ButtonList';
 import NumberList from './NumberList';
+import BetterNumberList from './BetterNumberList';
 // import './App.css';
 
 
@@ -18,6 +19,7 @@ class App extends Component {
         <CopyDemo /> */}
         {/* <ButtonList /> */}
         <NumberList />
+        <BetterNumberList />
       </div>
     );
   }
